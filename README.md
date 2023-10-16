@@ -8,6 +8,19 @@ I chose to share this since resources and documentation aren't the greatest when
 
 This app makes use of two major things, [Swift UI](https://developer.apple.com/xcode/swiftui/) and The [composable Architecture](https://github.com/pointfreeco/swift-composable-architecture). If the code doesn't make too much sence you can cut right to the implementation and look at the meat and potatoes in the [Destiny2Client](https://github.com/etiennemartin/destiny2-oauth-example/blob/main/Destiny2-OAuth/Destiny2Client/Destiny2Client.swift#L68) implementation.
 
+## Before you try the app 
+
+In order to get this application to work on your machine, you will need to do a few things. Just follow the steps:
+
+1. Register your application with Bungie here: https://www.bungie.net/en/Application
+2. Keep the applications apikey, client id, and scheme
+3. Clone this repo
+4. Update the values in the following file: [Destin2AppValues.swift](https://github.com/etiennemartin/destiny2-oauth-example/blob/main/Destiny2-OAuth/Destiny2Client/Destin2AppValues.swift#L21-L30)
+5. Build the app using Xcode (Make sure the TCA Package is downloaded before hand)
+6. Run the app!
+
+You should be able to login to the app, and see your name once you've authenticated.
+
 ## Screenshots
 
 <img width="464" alt="image" src="https://github.com/etiennemartin/destiny2-oauth-example/assets/647560/dba92cd8-80b1-4b6d-9ede-832201ca6581">
